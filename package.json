@@ -2,3 +2,10 @@
   "name": "sharma-invoice-app",
   "version": "1.0.0"
 }
+{
+  "homepage": "https://ryaan-race.github.io/sharma-invoice-apps",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  }
+}
